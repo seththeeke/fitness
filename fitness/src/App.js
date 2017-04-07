@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TestComponent from './TestComponent';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <p className="App-intro">
           This is my first attempt at creating a react app! YAYAYAYAYAY!
         </p>
+        <TestComponent />
       </div>
     );
   }
