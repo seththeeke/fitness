@@ -1,20 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import TestComponent from './TestComponent';
+import PoweredByReact from './PoweredByReact';
+import WorkoutBody from './WorkoutBody';
 
 class App extends Component {
+  constructor(){
+    super();
+    this.workout = 
+    {
+      type: "aerobic", 
+      description: "stuff",
+      target: "Full Body",
+      exercises: [
+          {
+            name: "Bench",
+            sets: "3", 
+            reps: "2", 
+            mainMuscleGroup: "Chest", 
+            secondaryMuscleGroups: ["Biceps", "Triceps"]
+          }
+      ] 
+    };
+    this.workouts = [this.workout];
+  }
+
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          This is my first attempt at creating a react app! YAYAYAYAYAY!
-        </p>
-        <TestComponent />
+        <PoweredByReact />
+        <WorkoutBody workouts={this.workouts}/>
       </div>
     );
   }
