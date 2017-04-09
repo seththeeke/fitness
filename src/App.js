@@ -6,22 +6,8 @@ import WorkoutBody from './WorkoutBody';
 class App extends Component {
   constructor(){
     super();
-    this.workout = 
-    {
-      type: "aerobic", 
-      description: "stuff",
-      target: "Full Body",
-      exercises: [
-          {
-            name: "Bench",
-            sets: "3", 
-            reps: "2", 
-            mainMuscleGroup: "Chest", 
-            secondaryMuscleGroups: ["Biceps", "Triceps"]
-          }
-      ] 
-    };
-    this.workouts = [this.workout];
+    this.workouts = require('./workouts.json');
+    // console.log(this.workouts);
   }
 
   render() {

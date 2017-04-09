@@ -1,0 +1,879 @@
+
+[
+	{
+      "type": "Anaerobic", 
+      "description": "300 Reps in 35 minutes",
+      "target": "Full Body",
+      "time_limit": "35 minutes",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Box Jumps",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Calfs"],
+            "requirement": "At least Knee Height Box"
+          },
+          {
+            "name": "Snatches",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Glutes", 
+            "secondary_muscle_groups": ["Hamstrings", "Deltoids", "Traps", "Calfs", "Quadriceps"],
+            "requirement": "At least 50lb Dumbbell"
+          },
+          {
+            "name": "Push-Ups",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Pecs", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Wall Balls",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Glutes", 
+            "secondary_muscle_groups": ["Hamstrings", "Quadriceps"],
+            "requirement": "At least 25lb Ball"
+          },
+          {
+            "name": "Dumbell Curls",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Sitting Dips",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Legs and Abs",
+      "target": "Legs",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Ab Wheel",
+            "sets": "3", 
+            "reps": "6", 
+            "main_muscle_group": "Abs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Toe Touches",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Abs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "6", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Legs To Chest",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Abs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Weighted Calf Raises",
+            "sets": "3", 
+            "reps": "20", 
+            "main_muscle_group": "Calfs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Calf Raises",
+            "sets": "3", 
+            "reps": "80", 
+            "main_muscle_group": "Calfs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Shoulders and Arms",
+      "target": "Arms",
+      "time_limit": "1 hour",
+      "special_rule": "x 2",
+      "exercises": [
+          {
+            "name": "Dumbell Curls",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Dips",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Dumbell 30's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": "4", 
+            "reps": "5", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Skull Crushers",
+            "sets": "4", 
+            "reps": "5", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Barbell Forearm Curls",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Forearms", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Dumbell 30's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          },
+          {
+            "name": "Stalled Curls",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Tricep Extensions",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Dumbell 30's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Chest and Arms",
+      "target": "Chest",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Bench",
+            "sets": "5", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Incline Bench",
+            "sets": "5", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Decline Bench",
+            "sets": "5", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Skull Crushers",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Barbell Curls",
+            "sets": "3", 
+            "reps": "4", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Tricep Extensions",
+            "sets": "3", 
+            "reps": "4", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Dumbell Curls",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Bench",
+            "sets": "5", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Incline Bench",
+            "sets": "5", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Decline Bench",
+            "sets": "5", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Legs, Legs, Legs",
+      "target": "Legs",
+      "time_limit": "40 minutes",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Box Jumps",
+            "sets": "5", 
+            "reps": "10", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Calfs"],
+            "requirement": "At least Knee Height Box"
+          },
+          {
+            "name": "Front Squat",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes", "Lower Back"],
+            "requirement": ""
+          },
+          {
+            "name": "Calf Raises",
+            "sets": "5", 
+            "reps": "50", 
+            "main_muscle_group": "Calfs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Wall Balls",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Glutes", 
+            "secondary_muscle_groups": ["Hamstrings", "Quadriceps"],
+            "requirement": "At least 25lb Ball"
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Chest and Back",
+      "target": "Back",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Dumbbell Bench",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Back", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Bent Over Row",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Back", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Incline Bench",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": "3", 
+            "reps": "6", 
+            "main_muscle_group": "Lats", 
+            "secondary_muscle_groups": ["Shoulders", "Biceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Decline Bench",
+            "sets": "5", 
+            "reps": "8", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Lat Pulldown",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Lats", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Pec Fly",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Bench",
+            "sets": "5", 
+            "reps": "2", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Arms and Shoulders",
+      "target": "Arms",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Military Press",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Dumbell Curls",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Tricep Extensions",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Farmer's Stand",
+            "sets": "3", 
+            "reps": "1 minute", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          },
+          {
+            "name": "Forward Shoulder Raises",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          },
+          {
+            "name": "Skull Crushers",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Wide Shoulder Raises",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          },
+          {
+            "name": "Stalled Curls",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Shrugs",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Traps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Barbell Reverse Curls",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Big Guns Bi's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Big Guns Tri's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Deadlifts and Squats",
+      "target": "Legs",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "8, 5, 2", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Deadlifts",
+            "sets": "3", 
+            "reps": "8, 5, 2", 
+            "main_muscle_group": "Hamstrings", 
+            "secondary_muscle_groups": ["Quadriceps", "Glutes", "Back"],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Chest To Death",
+      "target": "Chest",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Bench",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Incline Bench",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Decline Bench",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Pec Fly",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Ab Wheel",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Abs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "V-Ups",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Abs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Bench",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Incline Bench",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Decline Bench",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Aerobic", 
+      "description": "1 Hour Sweat",
+      "target": "Calorie Burn",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Box Jumps",
+            "sets": "1", 
+            "reps": "300", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Calfs"],
+            "requirement": "At least Knee Height Box"
+          },
+          {
+            "name": "Shoulder Raises",
+            "sets": "1", 
+            "reps": "100", 
+            "main_muscle_group": "Shoulders", 
+            "secondary_muscle_groups": ["Traps"],
+            "requirement": ""
+          },
+          {
+            "name": "Snatches",
+            "sets": "1", 
+            "reps": "100", 
+            "main_muscle_group": "Glutes", 
+            "secondary_muscle_groups": ["Hamstrings", "Deltoids", "Traps", "Calfs", "Quadriceps"],
+            "requirement": "At least 50lb Dumbbell"
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Arms and Chest",
+      "target": "Arms",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Bench",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Push-Ups",
+            "sets": "3", 
+            "reps": "15", 
+            "main_muscle_group": "Pecs", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Skull Crushers",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Dumbell Curls",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Incline Bench",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders", "Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Push-Ups",
+            "sets": "3", 
+            "reps": "15", 
+            "main_muscle_group": "Pecs", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Tricep Extensions",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": ["Abs"],
+            "requirement": ""
+          },
+          {
+            "name": "Decline Bench",
+            "sets": "3", 
+            "reps": "8", 
+            "main_muscle_group": "Chest", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Push-Ups",
+            "sets": "3", 
+            "reps": "15", 
+            "main_muscle_group": "Pecs", 
+            "secondary_muscle_groups": ["Triceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Big Guns Bi's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Biceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Big Guns Tri's",
+            "sets": "1", 
+            "reps": "", 
+            "main_muscle_group": "Triceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          }
+      ] 
+    },
+    {
+      "type": "Anaerobic", 
+      "description": "Legs and Back",
+      "target": "Back",
+      "time_limit": "1 hour",
+      "special_rule": "",
+      "exercises": [
+          {
+            "name": "Squat",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
+            "requirement": ""
+          },
+          {
+            "name": "Pull-Ups",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Lats", 
+            "secondary_muscle_groups": ["Shoulders", "Biceps"],
+            "requirement": ""
+          },
+          {
+            "name": "Machine Row",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Lats", 
+            "secondary_muscle_groups": ["Lower Back"],
+            "requirement": ""
+          },
+          {
+            "name": "Lat Pulldown",
+            "sets": "3", 
+            "reps": "5", 
+            "main_muscle_group": "Lats", 
+            "secondary_muscle_groups": ["Shoulders"],
+            "requirement": ""
+          },
+          {
+            "name": "Back Extensions",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Lower Back", 
+            "secondary_muscle_groups": ["Hamstrings"],
+            "requirement": ""
+          },
+          {
+            "name": "Leg Curls",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Hamstrings", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Galileo Row",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Lower Back", 
+            "secondary_muscle_groups": ["Lats"],
+            "requirement": ""
+          },
+          {
+            "name": "Leg Extensions",
+            "sets": "3", 
+            "reps": "10", 
+            "main_muscle_group": "Quadriceps", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Weighted Calf Raises",
+            "sets": "2", 
+            "reps": "20", 
+            "main_muscle_group": "Calfs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          },
+          {
+            "name": "Calf Raises",
+            "sets": "2", 
+            "reps": "80", 
+            "main_muscle_group": "Calfs", 
+            "secondary_muscle_groups": [],
+            "requirement": ""
+          }
+      ] 
+    }    
+]
