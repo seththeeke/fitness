@@ -15,6 +15,13 @@ class Workout extends Component {
     this.refs.exercises.hidden = !this.refs.exercises.hidden;
   }
 
+  getTimeLimit (){
+      if (this.workout.time_limit.length > 0){
+        return this.workout.time_limit;
+      }
+      return "None";
+  }
+
   render() {
     var exercises = [];
     for (let i = 0; i < this.workout.exercises.length; i++){
@@ -22,7 +29,7 @@ class Workout extends Component {
         exercises.push(
           <div className="exercise-row">
             <div className="exercise-name">{exercise.name} </div>
-            <div className="exercise-sets">{exercise.sets} X </div>
+            <div className="exercise-sets">{exercise.sets} x </div>
             <div className="exercise-reps">{exercise.reps}</div>
           </div>
         );
@@ -34,6 +41,8 @@ class Workout extends Component {
         <div className="workout-type">{this.workout.type}</div>
         <div className="workout-target">Target: {this.workout.target}</div>
         <div ref="exercises" className="exercise-block" hidden>
+          <div className="workout-time-limit-header">Time Limit: </div>
+          <div className="workout-time-limit-time">{this.getTimeLimit()}</div>
           {exercises}
         </div>
       </div>

@@ -30,13 +30,24 @@
 	font-size: 12px;
 }
 
+.workout-time-limit-header{
+	display: inline-block;
+	font-size: 20px;
+}
+.workout-time-limit-time{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+}
+
 .exercise-block{
 	padding: 10px;
+	text-align: left;
+	white-space: pre;
 }
 
 .exercise-row{
-	text-align: left;
-	white-space: pre;
+	
 }
 
 .exercise-name{

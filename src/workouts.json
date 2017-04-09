@@ -1,7 +1,7 @@
 
 [
 	{
-      "type": "Anaerobic", 
+      "type": "Sweat", 
       "description": "300 Reps in 35 minutes",
       "target": "Full Body",
       "time_limit": "35 minutes",
@@ -58,7 +58,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "High Reps", 
       "description": "Legs and Abs",
       "target": "Legs",
       "time_limit": "1 hour",
@@ -131,7 +131,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "High Reps", 
       "description": "Shoulders and Arms",
       "target": "Arms",
       "time_limit": "1 hour",
@@ -228,7 +228,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "Big Weight", 
       "description": "Chest and Arms",
       "target": "Chest",
       "time_limit": "1 hour",
@@ -317,7 +317,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "Sweat", 
       "description": "Legs, Legs, Legs",
       "target": "Legs",
       "time_limit": "40 minutes",
@@ -366,7 +366,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "Big Weight", 
       "description": "Chest and Back",
       "target": "Back",
       "time_limit": "1 hour",
@@ -439,7 +439,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "High Reps", 
       "description": "Arms and Shoulders",
       "target": "Arms",
       "time_limit": "1 hour",
@@ -544,7 +544,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "Big Weight", 
       "description": "Deadlifts and Squats",
       "target": "Legs",
       "time_limit": "1 hour",
@@ -569,7 +569,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "High Reps", 
       "description": "Chest To Death",
       "target": "Chest",
       "time_limit": "1 hour",
@@ -650,7 +650,7 @@
       ] 
     },
     {
-      "type": "Aerobic", 
+      "type": "Sweat", 
       "description": "1 Hour Sweat",
       "target": "Calorie Burn",
       "time_limit": "1 hour",
@@ -683,7 +683,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "High Reps", 
       "description": "Arms and Chest",
       "target": "Arms",
       "time_limit": "1 hour",
@@ -788,7 +788,7 @@
       ] 
     },
     {
-      "type": "Anaerobic", 
+      "type": "High Reps", 
       "description": "Legs and Back",
       "target": "Back",
       "time_limit": "1 hour",
