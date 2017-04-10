@@ -1,2 +1,4 @@
 # fitness
-My workouts and thoughts on fitness
+Easy access to my workouts
+
+Built with React
