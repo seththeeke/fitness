@@ -1,0 +1,64 @@
+.workout-wrapper{
+	display: inline-block;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px black;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.workout-wrapper:hover{
+	cursor: pointer;
+	box-shadow: 10px 7px 30px black;
+}
+
+.workout-descripton{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Arial";
+	color: #E99800;
+}
+
+.workout-type{
+	font-size: 14px;
+}
+
+.workout-target{
+	font-size: 12px;
+}
+
+.workout-time-limit-header{
+	display: inline-block;
+	font-size: 20px;
+}
+.workout-time-limit-time{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+}
+
+.exercise-block{
+	padding: 10px;
+	text-align: left;
+	white-space: pre;
+}
+
+.exercise-row{
+	
+}
+
+.exercise-name{
+	display: inline-block;
+	min-width: 60%;
+}
+
+.exercise-sets{
+	display: inline-block;
+}
+
+.exercise-reps{
+	display: inline-block;
+}
