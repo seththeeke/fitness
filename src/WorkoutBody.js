@@ -5,30 +5,34 @@ import Workout from './Workout';
 class WorkoutBody extends Component {
   constructor(properties){
     super();
-    this.Allworkouts = properties.workouts;
-    this.filtersArray = [];
-    for (let i = 0; i < this.Allworkouts.length; i++){
-      let workout = this.Allworkouts[i];
-      this.addPropertyToFilter(this.filtersArray, workout.type);
-      this.addPropertyToFilter(this.filtersArray, workout.target);
+    let allWorkouts = properties.workouts;
+    let filters = [];
+    this.setUpFilters(allWorkouts, filters);
+    this.currentFilters = [];
+
+    this.state = {
+      workoutsShown: [],
+      filteredWorkouts: allWorkouts,
+      filtersArray: filters,
+      allWorkouts: allWorkouts
+    };
+
+    // required to bind funcion to dom for onClick event
+    this.filter = this.filter.bind(this);
+  }
+
+  setUpFilters (workouts, filters){
+    for (let i = 0; i < workouts.length; i++){
+      let workout = workouts[i];
+      this.addPropertyToFilter(filters, workout.type);
+      this.addPropertyToFilter(filters, workout.target);
       let exercises = workout.exercises;
       for (let i = 0; i < exercises.length; i++){
         let exercise = exercises[i];
-        this.addPropertyToFilter(this.filtersArray, exercise.main_muscle_group);
-        this.addPropertyToFilter(this.filtersArray, exercise.secondary_muscle_groups, true);
+        this.addPropertyToFilter(filters, exercise.main_muscle_group);
+        this.addPropertyToFilter(filters, exercise.secondary_muscle_groups, true);
       }
     }
-    this.currentFilters = [];
-    // console.log(this.filtersArray);
-
-    this.state = {
-      date: "Hello",
-      workoutsShown: [],
-      filteredWorkouts: this.Allworkouts
-    };
-
-    // required to bind funcion to dom
-    this.filter = this.filter.bind(this);
   }
 
   addPropertyToFilter (array, item, isArrayOfItems){
@@ -48,26 +52,57 @@ class WorkoutBody extends Component {
   }
 
   filter (event){
-    this.currentFilters.push(event.object);
-    var filtsWorks = this.handleFilter(this.Allworkouts, this.currentFilters);
+    // either add or remove filter
+    if (this.currentFilters.includes(event.object)){
+      var index = this.currentFilters.indexOf(event.object);
+      this.currentFilters.splice(index, 1);
+    }
+    else{
+      this.currentFilters.push(event.object);
+    }
     this.setState({
-      date: "Stuff",
-      filteredWorkouts: filtsWorks,
+      filteredWorkouts: this.handleFilter(this.state.allWorkouts, this.currentFilters),
       workoutsShown: []
     });
   }
 
   handleFilter(workoutsArray, filtersArray){
-      // return an array of the workouts to show
-      return this.Allworkouts.splice(0, 1);
+      let workoutsForFilter = [];
+      if (filtersArray.length === 0){
+        return workoutsArray;
+      }
+      for (let i = 0; i < workoutsArray.length; i++){
+          let isMatch = false;
+          let workout = workoutsArray[i];
+          if (filtersArray.includes(workout.type) || filtersArray.includes(workout.target)){
+              isMatch = true;
+          }
+          let exercises = workout.exercises;
+          for (let j = 0; j < exercises.length; j++){
+              let exercise = exercises[j];
+              if (filtersArray.includes(exercise.main_muscle_group)){
+                isMatch = true;
+              }
+              for (let k = 0; k < exercise.secondary_muscle_groups.length; k++){
+                  let secondary_muscle_group = exercise.secondary_muscle_groups[k];
+                  if (filtersArray.includes(secondary_muscle_group)){
+                    isMatch = true;
+                  }
+              }
+          }
+          if (isMatch){
+              workoutsForFilter.push(workout);
+          }
+      }
+      return workoutsForFilter;
   }
 
   render() {
     // Setting up checkbox filters based on string array of filters
     var filters = [];
-    for (let i = 0; i < this.filtersArray.length; i++){
+    for (let i = 0; i < this.state.filtersArray.length; i++){
       let filter;
-      let object = this.filtersArray[i];
+      let object = this.state.filtersArray[i];
       filter = 
         <div className="input">
         <input id="{object}" type="checkbox" className="filter-checkbox" onClick={() => this.filter({object})}></input>
@@ -86,7 +121,6 @@ class WorkoutBody extends Component {
 
     return (
       <div>
-        <div>{this.state.date}</div>
         <div className="filter-toolbar">
         <h1>Seth's Gym</h1>
             {filters}

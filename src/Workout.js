@@ -4,28 +4,33 @@ import './Workout.css';
 class Workout extends Component {
   constructor(properties){
     super();
-    this.workout = properties.workout;
-    // console.log(this.workout);
-
+    this.state = {
+      workout: properties.workout,
+    };
     this.expand = this.expand.bind(this);
+    this.getTimeLimit = this.getTimeLimit.bind(this);
   }
 
   expand (event){
-    // console.log(this.workout.exercises);
     this.refs.exercises.hidden = !this.refs.exercises.hidden;
   }
 
   getTimeLimit (){
-      if (this.workout.time_limit.length > 0){
-        return this.workout.time_limit;
+      if (this.state.workout.time_limit.length > 0){
+        return this.state.workout.time_limit;
       }
       return "None";
   }
 
+  shouldComponentUpdate (nextProps, nextState){
+    this.state.workout = nextProps.workout;
+    return true;
+  }
+
   render() {
     var exercises = [];
-    for (let i = 0; i < this.workout.exercises.length; i++){
-        let exercise = this.workout.exercises[i];
+    for (let i = 0; i < this.state.workout.exercises.length; i++){
+        let exercise = this.state.workout.exercises[i];
         exercises.push(
           <div className="exercise-row">
             <div className="exercise-name">{exercise.name} </div>
@@ -37,9 +42,9 @@ class Workout extends Component {
 
     return (
       <div className="workout-wrapper" onClick={this.expand}>
-        <div className="workout-descripton">{this.workout.description}</div>
-        <div className="workout-type">{this.workout.type}</div>
-        <div className="workout-target">Target: {this.workout.target}</div>
+        <div className="workout-descripton">{this.state.workout.description}</div>
+        <div className="workout-type">{this.state.workout.type}</div>
+        <div className="workout-target">Target: {this.state.workout.target}</div>
         <div ref="exercises" className="exercise-block" hidden>
           <div className="workout-time-limit-header">Time Limit: </div>
           <div className="workout-time-limit-time">{this.getTimeLimit()}</div>

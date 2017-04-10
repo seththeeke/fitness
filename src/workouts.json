@@ -27,7 +27,7 @@
             "name": "Push-Ups",
             "sets": "5", 
             "reps": "10", 
-            "main_muscle_group": "Pecs", 
+            "main_muscle_group": "Chest", 
             "secondary_muscle_groups": ["Triceps"],
             "requirement": ""
           },
@@ -151,14 +151,6 @@
             "reps": "8", 
             "main_muscle_group": "Triceps", 
             "secondary_muscle_groups": [],
-            "requirement": ""
-          },
-          {
-            "name": "Squat",
-            "sets": "3", 
-            "reps": "8", 
-            "main_muscle_group": "Quadriceps", 
-            "secondary_muscle_groups": ["Hamstrings", "Glutes"],
             "requirement": ""
           },
           {
@@ -701,7 +693,7 @@
             "name": "Push-Ups",
             "sets": "3", 
             "reps": "15", 
-            "main_muscle_group": "Pecs", 
+            "main_muscle_group": "Chest", 
             "secondary_muscle_groups": ["Triceps"],
             "requirement": ""
           },
@@ -733,7 +725,7 @@
             "name": "Push-Ups",
             "sets": "3", 
             "reps": "15", 
-            "main_muscle_group": "Pecs", 
+            "main_muscle_group": "Chest", 
             "secondary_muscle_groups": ["Triceps"],
             "requirement": ""
           },
@@ -765,7 +757,7 @@
             "name": "Push-Ups",
             "sets": "3", 
             "reps": "15", 
-            "main_muscle_group": "Pecs", 
+            "main_muscle_group": "Chest", 
             "secondary_muscle_groups": ["Triceps"],
             "requirement": ""
           },
