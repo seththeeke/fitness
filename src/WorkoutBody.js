@@ -122,7 +122,6 @@ class WorkoutBody extends Component {
     return (
       <div>
         <div className="filter-toolbar">
-        <h1>Seth's Gym</h1>
             {filters}
         </div>
         <div>
