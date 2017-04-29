@@ -13,11 +13,13 @@ class Menu extends Component {
   }
 
   _navHome(){
-
+      var navEvent = new CustomEvent("nav-home");
+      document.dispatchEvent(navEvent);
   }
 
   _navToWorkouts(){
-
+      var navEvent = new CustomEvent("nav-workouts");
+      document.dispatchEvent(navEvent);
   }
 }
 

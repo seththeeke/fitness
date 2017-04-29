@@ -8,25 +8,30 @@ import Home from './Home';
 class App extends Component {
   constructor(){
     super();
+    
+    // Read in Workouts JSON
     this.workouts = require('./workouts.json');
 
+    // Must bind this to functions before adding event listeners
+    // or refs is undefined
     this._navHome = this._navHome.bind(this);
     this._navToWorkouts = this._navToWorkouts.bind(this);
+
+    // Navigation Event Listeners
+    document.addEventListener("nav-home", this._navHome);
+    document.addEventListener("nav-workouts", this._navToWorkouts);
   }
 
   render() {
     return (
       <div className="App">
-        <PoweredByReact />
-        <div className="menu-container">
-          <div className="menu-button" onClick={this._navHome}>Home</div>
-          <div className="menu-button" onClick={this._navToWorkouts}>Workouts</div>
-        </div>
+        <PoweredByReact></PoweredByReact>
+        <Menu></Menu>
         <div ref="home">
-          <Home/>
+          <Home></Home>
         </div>
         <div ref="workouts" hidden>
-          <WorkoutBody workouts={this.workouts}/>
+          <WorkoutBody workouts={this.workouts}></WorkoutBody>
         </div>
       </div>
     );

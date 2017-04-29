@@ -1,0 +1,44 @@
+.filter-toolbar{
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.64));
+}
+
+.input{
+	display: block;
+	padding-top: 5px;
+}
+
+input{
+	cursor: pointer;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	color: #E99800;
+}
+
+.checkbox-wrapper{
+	display: inline-block;
+	padding: 0 25px 0 0;
+}
+
+.filter{
+	color: white;
+}
+
+.filters-wrapper{
+	display: inline-block;
+	padding: 0px 40px 0 30px;
+}
+
+.type-filters-wrapper{
+	display: inline-block;
+	padding: 0 40px 0 10px;
+}
+
+.border{
+	border-right: 1px solid grey;
+}
