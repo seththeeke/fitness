@@ -1,0 +1,34 @@
+.home-container{
+	background-image: url(weights.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 761px;
+	width: auto;
+	text-align: center;
+}
+
+.quote-container{
+	background-color: white;
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	border-radius: 300px;
+	margin-top: 90px;
+	opacity: 0.8;
+}
+
+.quote{
+	font-family: "Arial";
+    padding: 10px;
+    font-size: 46px;
+    margin-top: 30%;
+}
+
+.quote-signature{
+	padding-top: 10px;
+	display: block;
+}
+
+.highlight{
+	color: #E99800;
+}
