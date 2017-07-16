@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './WorkoutBody.css';
 import Workout from './Workout';
 import FilterToolbar from './FilterToolbar';
+import StackGrid from "react-stack-grid";
 
 class WorkoutBody extends Component {
   constructor(properties){
@@ -33,9 +34,12 @@ class WorkoutBody extends Component {
     return (
       <div>
         <FilterToolbar allWorkouts={this.state.allWorkouts}></FilterToolbar>
-        <div>
+        <StackGrid
+          className="grid"
+          columnWidth={275}
+        >
           {this.state.workoutsShown}
-        </div>
+        </StackGrid>
       </div>
     );
   }
