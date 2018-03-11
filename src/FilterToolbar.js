@@ -19,6 +19,24 @@ class FilterToolbar extends Component {
     this.filter = this.filter.bind(this);
   }
 
+  shouldComponentUpdate (nextProps, nextState){
+    // HACK(I think) if I didn't set the state variable specifically,
+    // the item would not update
+    console.log("UPDATE Filter Toolbar");
+    console.log(nextProps);
+    let typeFilters = [];
+    let targetFilters = [];
+    let muscleFilters = [];
+    this.setUpSeparateFilters(nextProps.allWorkouts, typeFilters, targetFilters, muscleFilters);
+
+    this.state = {
+      typeFilters: typeFilters,
+      targetFilters: targetFilters,
+      muscleFilters: muscleFilters
+    }
+    return true;
+  }
+
   /*
   * Sets up an array of possible filters that will
   * be rendered as checkboxes

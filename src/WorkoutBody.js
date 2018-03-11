@@ -22,6 +22,17 @@ class WorkoutBody extends Component {
     document.addEventListener("filter-workouts", this.filter);
   }
 
+  shouldComponentUpdate (nextProps, nextState){
+    // HACK(I think) if I didn't set the state variable specifically,
+    // the item would not update
+    console.log("UPDATE WORKOUT BODY");
+    console.log(nextProps);
+    this.state.workoutsShown = [];
+    this.state.filteredWorkouts = nextProps;
+    this.state.allWorkouts = nextProps;
+    return true;
+  }
+
   render() {
     // set up workouts to show based on filter
     for (let i = 0; i < this.state.filteredWorkouts.length; i++){

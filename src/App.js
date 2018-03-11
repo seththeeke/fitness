@@ -10,7 +10,10 @@ class App extends Component {
     super();
     
     // Read in Workouts JSON
-    this.workouts = require('./workouts.json');
+    // this.workouts = require('./workouts.json');
+    this.state = {
+        workouts: []
+    }
 
     // Must bind this to functions before adding event listeners
     // or refs is undefined
@@ -22,6 +25,17 @@ class App extends Component {
     document.addEventListener("nav-workouts", this._navToWorkouts);
   }
 
+  componentDidMount() {
+    let URL = 'https://cln96umwkb.execute-api.us-east-1.amazonaws.com/dev';
+       fetch(URL)
+       .then(res => res.json())
+       .then((result) => {
+          this.setState({
+             workouts: result
+          });
+       })
+   }
+
   render() {
     return (
       <div className="App">
@@ -31,10 +45,18 @@ class App extends Component {
           <Home></Home>
         </div>
         <div ref="workouts" hidden>
-          <WorkoutBody workouts={this.workouts}></WorkoutBody>
+          <WorkoutBody workouts={this.state.workouts}></WorkoutBody>
         </div>
       </div>
     );
+  }
+
+  shouldComponentUpdate (nextProps, nextState){
+    // HACK(I think) if I didn't set the state variable specifically,
+    // the item would not update
+    this.state.workouts = nextProps.workouts;
+    console.log("UPDATE APP");
+    return true;
   }
 
   _navHome(){
