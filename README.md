@@ -1,5 +1,5 @@
 # fitness
-Easy access to my workouts
+Playground for React and attempted to workout more :/
 
 run `npm start` from root directory to serve locally
 
